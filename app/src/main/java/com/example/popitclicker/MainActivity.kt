@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
 //        TEST
 //        gay
 //        TEST2
+//        lover
     }
 }
