@@ -18,19 +18,17 @@
         android:textColor="#FFFFFF"
         android:textSize="34sp" />
 
-    <EditText
+    <TextView
         android:id="@+id/user_city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/app_name"
-        android:layout_marginTop="100sp"
-        android:backgroundTint="#fff"
-        android:ems="10"
         android:fontFamily="@font/montserrat_bold"
-        android:hint="Ваш город"
-        android:inputType="textPersonName"
+        android:text="Текущий город: Пенза"
+        android:textAlignment="center"
+        android:layout_marginTop="100sp"
         android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/weather_button"
@@ -41,7 +39,7 @@
         android:layout_marginTop="20sp"
         android:backgroundTint="#6495ed"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Узнать погоду"
+        android:text="Обновить"
         android:textAlignment="center"
         android:textSize="12sp" />
 
